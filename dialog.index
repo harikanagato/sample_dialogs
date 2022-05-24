@@ -6,6 +6,7 @@
 </head>
 <body>
   <h2>開くとダイアログが表示されるページ</h2>
+  <a href="index.html">戻る</a>
   <script>
     window.confirm("ダイアログです")
   </script>
