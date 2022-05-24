@@ -1,0 +1,13 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>puppeteer検証用</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <h2>開くとダイアログが表示されるページ</h2>
+  <script>
+    window.confirm("ダイアログです")
+  </script>
+</body>
+</html>
