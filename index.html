@@ -5,13 +5,13 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-  <input type="button" value="ページ移動" onclick="check();">
+  <button id="btn">ページ移動</button>
 
   <script>
   var btn = document.getElementById('btn');
 
   
-  function check() {
+   btn.addEventListener('click', function() {
     if( confirm("OKしますか？") ) {
         window.location.href = "ok.html";
     }
