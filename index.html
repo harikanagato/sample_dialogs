@@ -12,7 +12,8 @@
 
   
    btn.addEventListener('click', function() {
-    if( confirm("OKしますか？") ) {
+    window.confirm("OKしますか？")
+    if(confirm) {
         window.location.href = "ok.html";
     }
     else {
