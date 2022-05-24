@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-  <button id="btn">dialog</button>
+  <button id="btn">ダイアログ</button>
 
   <script>
   var btn = document.getElementById('btn');
@@ -14,11 +14,11 @@
    btn.addEventListener('click', function() {
     window.confirm("OKしますか？")
     if(confirm) {
-        window.location.href = "ok.html";
+      window.location.href = "ok.html";
+    } else {
+      window.location.href = "cancel.html";
     }
-    else {
-        window.location.href = "cancel.html";
-    }
+   }
   </script>
 </body>
 </html>
